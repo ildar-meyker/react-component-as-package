@@ -2,11 +2,16 @@
   "name": "react-component-as-package",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
-  "scripts": {},
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
   }
 }
